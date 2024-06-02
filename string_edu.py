@@ -117,7 +117,7 @@ async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 def main() -> None:
-    app = Application.builder().token("7045683571:AAHoYGYr3704ju6o_xMDpk_3Ug6o8X2O9BE").build()
+    app = Application.builder().token("").build()
 
     conv_handler = ConversationHandler(
             entry_points=[CommandHandler("start", start)],
